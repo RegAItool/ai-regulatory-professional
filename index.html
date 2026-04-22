@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Regulatory Professional — AI Modules for Medical Device Regulatory Submissions</title>
+<meta name="description" content="AI-powered tools and advisory services for FDA, EU MDR, and NMPA medical device regulatory submissions. SaMD classification, standards matching, predicate analysis.">
+<meta property="og:title" content="AI Regulatory Professional — Medical AI Regulatory">
+<meta property="og:description" content="Independent advisory firm for FDA / EU MDR / NMPA medical AI submissions. AI modules + services + research.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://airegulatorypro.com">
+<meta property="og:image" content="https://airegulatorypro.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Regulatory Professional">
+<meta name="twitter:description" content="Medical AI regulatory — FDA, EU MDR, NMPA.">
+<meta name="keywords" content="FDA regulatory, medical AI, SaMD, 510(k), De Novo, EU MDR, NMPA, medical device classification, PCCP, medical AI consulting">
+<link rel="canonical" href="https://airegulatorypro.com">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231F4E79'/%3E%3Ctext x='50' y='68' font-family='Helvetica,Arial' font-size='54' font-weight='bold' fill='white' text-anchor='middle'%3EAR%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: { 50: '#f4f7fb', 100: '#e1e9f2', 600: '#1F4E79', 700: '#15365a', 900: '#0b1d32' },
+        },
+        fontFamily: { sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'] }
+      }
+    }
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+<!-- ============ NAV ============ -->
+<nav class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="#top" class="flex items-center gap-2">
+      <div class="w-8 h-8 bg-navy-600 rounded-md flex items-center justify-center">
+        <span class="text-white font-bold text-sm">AR</span>
+      </div>
+      <span class="font-bold text-navy-600 text-lg tracking-tight">AI Regulatory Professional</span>
+    </a>
+    <div class="hidden md:flex gap-7 text-sm font-medium text-slate-600">
+      <a href="#modules" class="hover:text-navy-600 transition">AI Modules</a>
+      <a href="#services" class="hover:text-navy-600 transition">Advisory</a>
+      <a href="#resources" class="hover:text-navy-600 transition">Resources</a>
+      <a href="#methodology" class="hover:text-navy-600 transition">Research</a>
+      <a href="#about" class="hover:text-navy-600 transition">About</a>
+    </div>
+    <a href="#contact" class="bg-navy-600 hover:bg-navy-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition">
+      Get in touch
+    </a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="top" class="max-w-6xl mx-auto px-6 pt-20 pb-24">
+  <div class="max-w-4xl">
+    <div class="inline-block bg-navy-50 text-navy-600 text-xs font-semibold px-3 py-1 rounded-full mb-5 tracking-wider">
+      FDA · EU MDR · CHINA NMPA
+    </div>
+    <h1 class="text-5xl md:text-6xl font-bold text-slate-900 tracking-tight leading-[1.1]">
+      AI modules for medical device regulatory submissions —
+      <span class="text-navy-600">in minutes, not weeks.</span>
+    </h1>
+    <p class="mt-6 text-lg text-slate-600 leading-relaxed max-w-3xl">
+      AI Regulatory Professional is an independent firm building AI-powered tools for medical
+      device regulatory work. Classification, standards matching, predicate analysis, intended
+      use validation — each module grounded in peer-reviewed methodology
+      (<a href="https://arxiv.org/abs/2506.18511" class="text-navy-600 underline hover:text-navy-700" target="_blank">arXiv:2506.18511</a>,
+      <em>Expert Systems with Applications</em> 2026, <em>JMIR AI</em> 2024).
+    </p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="#modules" class="bg-navy-600 hover:bg-navy-700 text-white font-semibold px-6 py-3 rounded-lg transition">
+        Try a module free
+      </a>
+      <a href="#contact" class="border-2 border-navy-600 text-navy-600 hover:bg-navy-50 font-semibold px-6 py-3 rounded-lg transition">
+        Enterprise inquiry
+      </a>
+    </div>
+    <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+      <div class="border-l-2 border-navy-600 pl-4">
+        <div class="font-bold text-slate-900 text-2xl">90.4%</div>
+        <div class="text-slate-500">SaMD classification accuracy<br/>(<em>ESWA</em> 2026)</div>
+      </div>
+      <div class="border-l-2 border-navy-600 pl-4">
+        <div class="font-bold text-slate-900 text-2xl">87%</div>
+        <div class="text-slate-500">standards matching<br/>expert-level agreement</div>
+      </div>
+      <div class="border-l-2 border-navy-600 pl-4">
+        <div class="font-bold text-slate-900 text-2xl">95.6%</div>
+        <div class="text-slate-500">drug similarity<br/>F1 score</div>
+      </div>
+      <div class="border-l-2 border-navy-600 pl-4">
+        <div class="font-bold text-slate-900 text-2xl">10+</div>
+        <div class="text-slate-500">peer-reviewed publications<br/>in JMIR AI · ESWA · ACM</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section class="bg-slate-50 border-y border-slate-200 py-16">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-slate-900 mb-8">
+      Regulatory work is 70% retrieval. We built the modules that automate it.
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6 text-slate-600">
+      <p class="leading-relaxed">
+        Classification, applicable standards mapping, predicate identification,
+        intended use validation — these tasks consume 70% of a regulatory
+        consultant's time, and most of a startup's $30,000-50,000 consulting bill.
+      </p>
+      <p class="leading-relaxed">
+        None of this work benefits from senior human judgment. It benefits from
+        systematic retrieval across FDA databases, ISO/IEC catalogs, and MDR
+        guidance corpora. AI does this better, faster, and cheaper.
+      </p>
+      <p class="leading-relaxed">
+        We published the underlying methodology (<em>ESWA</em> 2026, <em>JMIR AI</em>
+        2024, arXiv:2506.18511) so buyers can verify rigor before purchasing.
+      </p>
+      <p class="leading-relaxed">
+        This practice delivers the tools as self-serve AI modules — and the expert
+        layer as advisory services when judgment is required.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AI MODULES (FLAGSHIP) ============ -->
+<section id="modules" class="max-w-6xl mx-auto px-6 py-20">
+  <div class="mb-10">
+    <div class="inline-block bg-navy-600 text-white text-xs font-bold px-3 py-1 rounded mb-3 tracking-wider">FLAGSHIP</div>
+    <h2 class="text-4xl font-bold text-slate-900">AI Modules</h2>
+    <p class="mt-3 text-slate-600 text-lg max-w-3xl">
+      Six AI-powered tools for medical device regulatory work. Try any module free
+      (3 queries/month). Upgrade to Pro or Enterprise for unlimited access and API integration.
+    </p>
+  </div>
+
+  <!-- Module grid -->
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
+
+    <div class="border border-slate-200 rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition bg-white">
+      <div class="w-10 h-10 bg-navy-50 text-navy-600 rounded-lg flex items-center justify-center font-bold mb-4">🗂</div>
+      <h3 class="font-bold text-lg text-slate-900 mb-2">SaMD Risk Classifier</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Input device description → Class I/II/III classification across FDA, EU MDR, and China NMPA simultaneously. 90.4% accuracy, 97.88% AUROC.
+      </p>
+      <div class="text-xs text-slate-500 mb-1">Based on: <em>ESWA</em> 2026, 1,005 NMPA devices</div>
+      <div class="text-xs text-slate-500 mb-4">Input: text + optional images · Output: classification + confidence + explanation</div>
+      <a href="#" data-module="classifier" class="text-navy-600 font-semibold text-sm hover:underline">Try free (3/month) →</a>
+    </div>
+
+    <div class="border border-slate-200 rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition bg-white">
+      <div class="w-10 h-10 bg-navy-50 text-navy-600 rounded-lg flex items-center justify-center font-bold mb-4">📋</div>
+      <h3 class="font-bold text-lg text-slate-900 mb-2">Standards Matcher</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Input device characteristics → applicable IEC/ISO/FDA standards matrix. 87% expert-level agreement on 500 test cases across 3 jurisdictions.
+      </p>
+      <div class="text-xs text-slate-500 mb-1">Based on: arXiv:2506.18511 RAG framework</div>
+      <div class="text-xs text-slate-500 mb-4">Input: device description · Output: ranked standards list + reasoning</div>
+      <a href="#" data-module="standards" class="text-navy-600 font-semibold text-sm hover:underline">Try free (3/month) →</a>
+    </div>
+
+    <div class="border border-slate-200 rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition bg-white">
+      <div class="w-10 h-10 bg-navy-50 text-navy-600 rounded-lg flex items-center justify-center font-bold mb-4">🔍</div>
+      <h3 class="font-bold text-lg text-slate-900 mb-2">510(k) Predicate Finder</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Input your device → top-5 predicate device candidates from the FDA 510(k) database with substantial equivalence reasoning for each.
+      </p>
+      <div class="text-xs text-slate-500 mb-1">Vector search over FDA 510(k) database</div>
+      <div class="text-xs text-slate-500 mb-4">Input: intended use + tech spec · Output: 5 predicates + K-numbers + gap analysis</div>
+      <a href="#" data-module="predicate" class="text-navy-600 font-semibold text-sm hover:underline">Try free (3/month) →</a>
+    </div>
+
+    <div class="border border-slate-200 rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition bg-white">
+      <div class="w-10 h-10 bg-navy-50 text-navy-600 rounded-lg flex items-center justify-center font-bold mb-4">🌐</div>
+      <h3 class="font-bold text-lg text-slate-900 mb-2">Cross-Jurisdiction Classifier</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        One device description → FDA Class · EU MDR Class · China NMPA Class in one pass. Highlights conflicts across frameworks.
+      </p>
+      <div class="text-xs text-slate-500 mb-1">Combines Classifier + Standards modules</div>
+      <div class="text-xs text-slate-500 mb-4">Input: device + target markets · Output: 3-column classification + gap matrix</div>
+      <a href="#" data-module="cross-jurisdiction" class="text-navy-600 font-semibold text-sm hover:underline">Try free (3/month) →</a>
+    </div>
+
+    <div class="border border-slate-200 rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition bg-white">
+      <div class="w-10 h-10 bg-navy-50 text-navy-600 rounded-lg flex items-center justify-center font-bold mb-4">✍️</div>
+      <h3 class="font-bold text-lg text-slate-900 mb-2">Intended Use Validator</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Paste your Intended Use draft → regulatory quality score + specific rewrite suggestions. Checks for marketing language, ambiguity, FDA-accepted patterns.
+      </p>
+      <div class="text-xs text-slate-500 mb-1">Trained on 1,005 cleared FDA + CE-marked IU statements</div>
+      <div class="text-xs text-slate-500 mb-4">Input: IU text · Output: score + rewrite + rationale</div>
+      <a href="#" data-module="iu" class="text-navy-600 font-semibold text-sm hover:underline">Try free (3/month) →</a>
+    </div>
+
+    <div class="border border-slate-200 rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition bg-white">
+      <div class="w-10 h-10 bg-navy-50 text-navy-600 rounded-lg flex items-center justify-center font-bold mb-4">💊</div>
+      <h3 class="font-bold text-lg text-slate-900 mb-2">Drug Similarity Matcher</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Input drug description → similar FDA-approved drugs by mechanism of action and pharmacokinetics. For ANDA support and biosimilar research.
+      </p>
+      <div class="text-xs text-slate-500 mb-1">RAG over 15,000 FDA-approved drugs · 95.6% F1</div>
+      <div class="text-xs text-slate-500 mb-4">Input: drug SMILES or description · Output: top-10 similar with precedent</div>
+      <a href="#" data-module="drug" class="text-navy-600 font-semibold text-sm hover:underline">Try free (3/month) →</a>
+    </div>
+
+  </div>
+
+  <!-- Pricing tiers -->
+  <div class="bg-gradient-to-br from-slate-900 to-navy-900 text-white rounded-xl p-8 md:p-10 shadow-xl">
+    <h3 class="text-2xl font-bold mb-2">Pricing tiers</h3>
+    <p class="text-slate-300 mb-8">All modules. Transparent pricing. Cancel anytime.</p>
+
+    <div class="grid md:grid-cols-4 gap-5">
+
+      <div class="bg-white/5 border border-white/10 rounded-lg p-6">
+        <div class="text-xs font-bold text-slate-400 tracking-wider mb-2">FREE</div>
+        <div class="text-3xl font-bold mb-1">$0</div>
+        <div class="text-sm text-slate-400 mb-5">per month</div>
+        <ul class="text-sm space-y-2 mb-6 text-slate-200">
+          <li>✓ 3 queries/month total</li>
+          <li>✓ All 6 modules accessible</li>
+          <li>✓ Standard output format</li>
+          <li class="text-slate-500">✗ No API access</li>
+          <li class="text-slate-500">✗ No bulk processing</li>
+        </ul>
+        <a href="#" data-pricing="free" class="block text-center border border-white/30 hover:bg-white hover:text-navy-900 font-semibold py-2.5 rounded-lg transition text-sm">
+          Start free
+        </a>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-lg p-6">
+        <div class="text-xs font-bold text-slate-400 tracking-wider mb-2">PRO</div>
+        <div class="text-3xl font-bold mb-1">$29</div>
+        <div class="text-sm text-slate-400 mb-5">per month · single user</div>
+        <ul class="text-sm space-y-2 mb-6 text-slate-200">
+          <li>✓ Unlimited single-module usage</li>
+          <li>✓ Pick any one module</li>
+          <li>✓ Expanded output (PDF export)</li>
+          <li>✓ Email support</li>
+          <li class="text-slate-500">✗ API access</li>
+        </ul>
+        <a href="#" data-pricing="pro" class="block text-center border border-white/30 hover:bg-white hover:text-navy-900 font-semibold py-2.5 rounded-lg transition text-sm">
+          Upgrade to Pro
+        </a>
+      </div>
+
+      <div class="bg-navy-600 border-2 border-navy-600 rounded-lg p-6 relative shadow-lg">
+        <div class="absolute -top-3 left-5 bg-white text-navy-600 text-xs font-bold px-3 py-1 rounded">POPULAR</div>
+        <div class="text-xs font-bold text-navy-50 tracking-wider mb-2">PRO PLUS</div>
+        <div class="text-3xl font-bold mb-1">$99</div>
+        <div class="text-sm text-navy-50 mb-5">per month · single user</div>
+        <ul class="text-sm space-y-2 mb-6">
+          <li>✓ Unlimited access, all 6 modules</li>
+          <li>✓ Priority queue (3× faster)</li>
+          <li>✓ PDF + JSON export</li>
+          <li>✓ Email + Slack support</li>
+          <li>✓ 3 queries/day across API (beta)</li>
+        </ul>
+        <a href="#" data-pricing="proplus" class="block text-center bg-white text-navy-600 hover:bg-navy-50 font-bold py-2.5 rounded-lg transition text-sm">
+          Upgrade to Pro Plus
+        </a>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-lg p-6">
+        <div class="text-xs font-bold text-amber-300 tracking-wider mb-2">ENTERPRISE</div>
+        <div class="text-3xl font-bold mb-1">$999</div>
+        <div class="text-sm text-slate-400 mb-5">per month · team</div>
+        <ul class="text-sm space-y-2 mb-6 text-slate-200">
+          <li>✓ Unlimited all modules</li>
+          <li>✓ Unlimited API access</li>
+          <li>✓ White-label deliverables</li>
+          <li>✓ Up to 10 team seats</li>
+          <li>✓ Dedicated support channel</li>
+          <li>✓ Custom module training available</li>
+        </ul>
+        <a href="#contact" class="block text-center border border-amber-300 text-amber-300 hover:bg-amber-300 hover:text-navy-900 font-semibold py-2.5 rounded-lg transition text-sm">
+          Contact sales
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ ADVISORY SERVICES ============ -->
+<section id="services" class="bg-slate-50 border-y border-slate-200 py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="mb-12">
+      <div class="inline-block bg-slate-200 text-slate-700 text-xs font-bold px-3 py-1 rounded mb-3 tracking-wider">EXPERT LAYER</div>
+      <h2 class="text-4xl font-bold text-slate-900">Advisory services</h2>
+      <p class="mt-3 text-slate-600 text-lg">When AI modules aren't enough — direct engagement for teams within 3–12 months of submission.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div class="border border-slate-200 rounded-xl p-7 hover:border-navy-600 hover:shadow-lg transition bg-white">
+        <div class="text-xs font-bold text-slate-400 tracking-wider mb-3">ENTRY</div>
+        <h3 class="font-bold text-xl text-slate-900 mb-2">Classification Consultation</h3>
+        <div class="text-3xl font-bold text-navy-600 mb-1">$497</div>
+        <div class="text-sm text-slate-500 mb-5">30-minute call + 2-page memo · 3 business days</div>
+        <p class="text-slate-600 text-sm mb-5 leading-relaxed">
+          Classification uncertainty resolved in one call. We review the device description, deliver a written classification memo across three jurisdictions.
+        </p>
+        <ul class="text-sm text-slate-600 space-y-1.5 mb-6">
+          <li>✓ Classification across three jurisdictions</li>
+          <li>✓ Submission pathway recommendation</li>
+          <li>✓ Top-3 applicable standards</li>
+          <li>✓ 2-page written memo</li>
+        </ul>
+        <a href="#contact" class="block text-center bg-slate-100 hover:bg-navy-600 hover:text-white text-slate-700 font-semibold py-3 rounded-lg transition">
+          Request engagement
+        </a>
+      </div>
+
+      <div class="border-2 border-navy-600 rounded-xl p-7 shadow-lg bg-white relative">
+        <div class="absolute -top-3 left-7 bg-navy-600 text-white text-xs font-bold px-3 py-1 rounded">FLAGSHIP</div>
+        <div class="text-xs font-bold text-navy-600 tracking-wider mb-3">DEEP ENGAGEMENT</div>
+        <h3 class="font-bold text-xl text-slate-900 mb-2">Regulatory Readiness Audit</h3>
+        <div class="text-3xl font-bold text-navy-600 mb-1">$8,500</div>
+        <div class="text-sm text-slate-500 mb-5">10 business days · flat rate</div>
+        <p class="text-slate-600 text-sm mb-5 leading-relaxed">
+          20–30 page written audit covering classification, applicable standards, predicate analysis, clinical validation, risk management gap analysis.
+        </p>
+        <ul class="text-sm text-slate-600 space-y-1.5 mb-6">
+          <li>✓ Classification across FDA / MDR / NMPA</li>
+          <li>✓ Applicable standards matrix</li>
+          <li>✓ Predicate device comparison</li>
+          <li>✓ Clinical validation gap analysis</li>
+          <li>✓ Risk management review (ISO 14971)</li>
+          <li>✓ PCCP pre-check if adaptive AI</li>
+          <li>✓ 60-minute debrief call</li>
+        </ul>
+        <a href="#contact" class="block text-center bg-navy-600 hover:bg-navy-700 text-white font-semibold py-3 rounded-lg transition">
+          Request engagement
+        </a>
+      </div>
+
+      <div class="border border-slate-200 rounded-xl p-7 hover:border-navy-600 hover:shadow-lg transition bg-white">
+        <div class="text-xs font-bold text-slate-400 tracking-wider mb-3">RECURRING</div>
+        <h3 class="font-bold text-xl text-slate-900 mb-2">Fractional Regulatory Advisor</h3>
+        <div class="text-3xl font-bold text-navy-600 mb-1">$4,500<span class="text-lg text-slate-400">/mo</span></div>
+        <div class="text-sm text-slate-500 mb-5">16 hrs/month · 3-month minimum</div>
+        <p class="text-slate-600 text-sm mb-5 leading-relaxed">
+          Fractional Head of Regulatory capacity for medical AI strategy. Weekly check-ins, async Q&amp;A, document review, Pre-Sub preparation.
+        </p>
+        <ul class="text-sm text-slate-600 space-y-1.5 mb-6">
+          <li>✓ 16 hrs/month advisory</li>
+          <li>✓ Response within 1 business day</li>
+          <li>✓ 4 scheduled calls/month</li>
+          <li>✓ Document review</li>
+          <li>✓ FDA / MDR update monitoring</li>
+          <li>✓ Pre-Sub preparation</li>
+        </ul>
+        <a href="#contact" class="block text-center bg-slate-100 hover:bg-navy-600 hover:text-white text-slate-700 font-semibold py-3 rounded-lg transition">
+          Request engagement
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESOURCES ============ -->
+<section id="resources" class="max-w-6xl mx-auto px-6 py-20">
+  <div class="mb-10">
+    <div class="inline-block bg-emerald-100 text-emerald-700 text-xs font-bold px-3 py-1 rounded mb-3 tracking-wider">RESOURCES</div>
+    <h2 class="text-4xl font-bold text-slate-900">Publications &amp; tools</h2>
+    <p class="mt-3 text-slate-600 text-lg">Research-grade resources at self-serve prices.</p>
+  </div>
+
+  <!-- Bundle -->
+  <div class="bg-gradient-to-br from-navy-600 to-navy-700 text-white rounded-xl p-8 mb-8 shadow-xl">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-6">
+      <div class="flex-1">
+        <div class="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1 rounded mb-3 tracking-wider">BEST VALUE</div>
+        <h3 class="text-2xl font-bold mb-2">Regulatory Starter Kit</h3>
+        <p class="text-navy-50 mb-4">All four paid resources below. Save US$27.</p>
+        <ul class="text-sm text-navy-50 space-y-1">
+          <li>✓ Classification Checklist, Deep Edition (105 items)</li>
+          <li>✓ 7 Red-Flag Deep Dives (25-page monograph)</li>
+          <li>✓ Submission Timeline Template (Excel, 3 pathways)</li>
+          <li>✓ Pricing Benchmark Report (market analysis)</li>
+        </ul>
+      </div>
+      <div class="text-right">
+        <div class="text-sm text-navy-100 line-through">US$126</div>
+        <div class="text-4xl font-bold mb-3">US$99</div>
+        <a href="#" data-gumroad="mailto:contact@airegulatorypro.com?subject=Starter%20Kit%20Bundle%20%2499" class="inline-block bg-white text-navy-600 hover:bg-navy-50 font-bold px-6 py-3 rounded-lg transition">
+          Acquire kit
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="border border-slate-200 bg-white rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-lg text-slate-900">Classification Checklist, Deep Edition</h3>
+        <div class="text-2xl font-bold text-navy-600">US$19</div>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">105-item self-audit across 9 sections. PDF + bonus Excel predicate worksheet.</p>
+      <a href="#" data-gumroad="mailto:contact@airegulatorypro.com?subject=Deep%20Edition%20Checklist%20%2419" class="text-navy-600 font-semibold text-sm hover:underline">Acquire →</a>
+    </div>
+
+    <div class="border border-slate-200 bg-white rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-lg text-slate-900">7 Red-Flag Deep Dives</h3>
+        <div class="text-2xl font-bold text-navy-600">US$29</div>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">25-page monograph on the 7 critical failure modes observed in medical AI FDA submissions.</p>
+      <a href="#" data-gumroad="mailto:contact@airegulatorypro.com?subject=Red-Flag%20Deep%20Dives%20%2429" class="text-navy-600 font-semibold text-sm hover:underline">Acquire →</a>
+    </div>
+
+    <div class="border border-slate-200 bg-white rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-lg text-slate-900">Submission Timeline Template</h3>
+        <div class="text-2xl font-bold text-navy-600">US$29</div>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">Excel Gantt template for 510(k), De Novo, PMA pathways with critical path and cost estimates.</p>
+      <a href="#" data-gumroad="mailto:contact@airegulatorypro.com?subject=Submission%20Timeline%20%2429" class="text-navy-600 font-semibold text-sm hover:underline">Acquire →</a>
+    </div>
+
+    <div class="border border-slate-200 bg-white rounded-xl p-6 hover:border-navy-600 hover:shadow-lg transition">
+      <div class="flex justify-between items-start mb-3">
+        <h3 class="font-bold text-lg text-slate-900">Pricing Benchmark Report</h3>
+        <div class="text-2xl font-bold text-navy-600">US$49</div>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">Market analysis of FDA/MDR/NMPA consulting prices in 2026. Includes 9-step negotiation playbook.</p>
+      <a href="#" data-gumroad="mailto:contact@airegulatorypro.com?subject=Pricing%20Benchmark%20%2449" class="text-navy-600 font-semibold text-sm hover:underline">Acquire →</a>
+    </div>
+  </div>
+
+  <!-- Free tier -->
+  <div class="mt-10 grid md:grid-cols-2 gap-6">
+    <div class="border-2 border-emerald-600 bg-white rounded-xl p-7">
+      <div class="flex justify-between items-start mb-3">
+        <h4 class="font-bold text-xl text-slate-900">Classification Checklist (Free)</h4>
+        <div class="bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded">FREE</div>
+      </div>
+      <p class="text-slate-600 mb-4 text-sm">40-item self-audit. PDF · 2 pages · 90 minutes.</p>
+      <a href="#" data-gumroad="mailto:contact@airegulatorypro.com?subject=Free%20Checklist%20Request" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg transition text-sm">
+        Download PDF
+      </a>
+    </div>
+    <div class="border border-slate-200 bg-white rounded-xl p-7">
+      <h4 class="font-bold text-xl text-slate-900 mb-3">Newsletter</h4>
+      <p class="text-slate-600 mb-4 text-sm">Weekly analysis on medical AI regulatory frontiers. Free · no spam.</p>
+      <a href="#" data-substack="https://airegulatoryprofessional.substack.com" class="inline-block border-2 border-slate-700 text-slate-700 hover:bg-slate-900 hover:text-white font-semibold px-6 py-3 rounded-lg transition text-sm">
+        Subscribe →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METHODOLOGY ============ -->
+<section id="methodology" class="bg-slate-50 border-y border-slate-200 py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="mb-10">
+      <div class="inline-block bg-navy-50 text-navy-600 text-xs font-bold px-3 py-1 rounded mb-3 tracking-wider">PEER-REVIEWED</div>
+      <h2 class="text-4xl font-bold text-slate-900">Research methodology</h2>
+      <p class="mt-3 text-slate-600 text-lg max-w-3xl">
+        Every AI module is grounded in peer-reviewed research. Publicly cited for buyer due diligence.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="border border-slate-200 rounded-xl p-6 bg-white">
+        <div class="text-xs text-slate-400 font-semibold mb-2 tracking-wider">EXPERT SYSTEMS WITH APPLICATIONS · 2026</div>
+        <h3 class="font-bold text-slate-900 mb-2">Toward Automated Regulatory Decision-Making</h3>
+        <p class="text-sm text-slate-600 mb-3">Multimodal transformer for SaMD risk classification. 90.4% accuracy, 97.88% AUROC on 1,005 registered devices.</p>
+        <div class="text-xs text-slate-500">Powers: SaMD Risk Classifier module · DOI: 10.1016/j.eswa.2026.131669</div>
+      </div>
+
+      <div class="border border-slate-200 rounded-xl p-6 bg-white">
+        <div class="text-xs text-slate-400 font-semibold mb-2 tracking-wider">ARXIV · 2026</div>
+        <h3 class="font-bold text-slate-900 mb-2">Standard Applicability Judgment &amp; Cross-Jurisdictional Reasoning</h3>
+        <p class="text-sm text-slate-600 mb-3">RAG framework for medical device compliance across FDA, EU MDR, and NMPA. 87% expert agreement on 500 test cases.</p>
+        <div class="text-xs text-slate-500">Powers: Standards Matcher + Cross-Jurisdiction modules · arXiv:2506.18511</div>
+      </div>
+
+      <div class="border border-slate-200 rounded-xl p-6 bg-white">
+        <div class="text-xs text-slate-400 font-semibold mb-2 tracking-wider">UNDER REVIEW · 2026</div>
+        <h3 class="font-bold text-slate-900 mb-2">AI-Driven Mechanism-of-Action Similarity Assessment</h3>
+        <p class="text-sm text-slate-600 mb-3">RAG-enhanced transformer for FDA drug similarity assessment. 95.6% F1 score on 50,000 drug pairs.</p>
+        <div class="text-xs text-slate-500">Powers: Drug Similarity Matcher module</div>
+      </div>
+
+      <div class="border border-slate-200 rounded-xl p-6 bg-white">
+        <div class="text-xs text-slate-400 font-semibold mb-2 tracking-wider">JMIR AI · 2024</div>
+        <h3 class="font-bold text-slate-900 mb-2">Regulatory Frameworks for AI-Enabled Medical Device Software</h3>
+        <p class="text-sm text-slate-600 mb-3">Comparative analysis of NMPA, FDA, and EU MDR AI frameworks with implications for global manufacturers.</p>
+        <div class="text-xs text-slate-500">JMIR AI 3 (2024): e46871</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="bg-slate-900 text-white py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-4">About the firm</h2>
+    <p class="text-lg text-slate-300 mb-12 max-w-3xl leading-relaxed">
+      AI Regulatory Professional is an independent firm building AI-powered infrastructure
+      for medical device regulatory work. We combine peer-reviewed AI methodology with
+      regulatory affairs experience from Class II/III medical device manufacturing.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      <div>
+        <div class="text-5xl font-bold text-navy-600 mb-2">2026</div>
+        <div class="text-slate-400 text-sm uppercase tracking-wider">Founded</div>
+      </div>
+      <div>
+        <div class="text-5xl font-bold text-navy-600 mb-2">6 modules</div>
+        <div class="text-slate-400 text-sm uppercase tracking-wider">AI tools in production</div>
+      </div>
+      <div>
+        <div class="text-5xl font-bold text-navy-600 mb-2">3 jurisdictions</div>
+        <div class="text-slate-400 text-sm uppercase tracking-wider">FDA · EU MDR · China NMPA</div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <h3 class="text-xl font-bold mb-4">Approach</h3>
+        <ul class="space-y-3 text-slate-300 text-sm leading-relaxed">
+          <li><strong class="text-white">Published before delivered.</strong> Core methodology is peer-reviewed and publicly cited. Verify quality before purchase.</li>
+          <li><strong class="text-white">Transparent pricing.</strong> All modules and services priced publicly. No "contact us" opacity.</li>
+          <li><strong class="text-white">AI-first where possible.</strong> 70% of regulatory work is retrieval. We automate that and reserve human expertise for judgment.</li>
+          <li><strong class="text-white">No outcome guarantees.</strong> We cannot promise FDA clearance. We can promise rigorous analysis.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold mb-4">Team pedigree</h3>
+        <ul class="space-y-3 text-slate-300 text-sm leading-relaxed">
+          <li><strong class="text-white">Academic:</strong> DPhil, University of Oxford (Engineering Science). MSc, Northeastern University (Regulatory Affairs).</li>
+          <li><strong class="text-white">Industry:</strong> 4+ years medical device regulatory affairs at Johnson &amp; Johnson (Class II/III, 510(k), MDR).</li>
+          <li><strong class="text-white">Clinical collaboration:</strong> AI validation work with Shanghai Sixth People's Hospital and Oxford teaching hospitals.</li>
+          <li><strong class="text-white">Research output:</strong> 10+ peer-reviewed publications in JMIR AI, Expert Systems with Applications, ACM Transactions on Computing for Healthcare, Frontiers in Medicine.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="bg-navy-900 text-white py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-4">Contact</h2>
+    <p class="text-xl text-slate-300 mb-10 leading-relaxed">
+      For advisory engagements and enterprise module access. First 15 minutes of consultation complimentary.
+    </p>
+    <div class="grid md:grid-cols-2 gap-6">
+      <a href="mailto:contact@airegulatorypro.com?subject=15-min%20consultation%20request" target="_blank" class="bg-white text-navy-900 hover:bg-navy-50 font-bold px-6 py-5 rounded-lg transition flex items-center justify-between">
+        <div>
+          <div class="text-sm text-slate-500 mb-1">Book a consultation</div>
+          <div class="text-lg">15-minute intake call →</div>
+        </div>
+        <div class="text-3xl">📅</div>
+      </a>
+      <a href="mailto:contact@airegulatorypro.com" class="bg-white/10 hover:bg-white/20 font-bold px-6 py-5 rounded-lg transition flex items-center justify-between">
+        <div>
+          <div class="text-sm text-slate-400 mb-1">Written inquiry</div>
+          <div class="text-lg">contact@airegulatorypro.com</div>
+        </div>
+        <div class="text-3xl">📬</div>
+      </a>
+    </div>
+
+    <div class="mt-10 pt-10 border-t border-slate-700 flex flex-col md:flex-row justify-between gap-4 text-sm text-slate-400">
+      <div>
+        <div class="font-semibold text-slate-200 mb-1">AI Regulatory Professional</div>
+        <div>© 2026 · Independent medical AI regulatory · Hong Kong</div>
+      </div>
+      <div class="flex gap-5">
+        <a href="https://www.linkedin.com/company/ai-regulatory-professional/" class="hover:text-white transition">LinkedIn</a>
+        <a href="https://airegulatoryprofessional.substack.com" class="hover:text-white transition">Newsletter</a>
+        <a href="https://arxiv.org/abs/2506.18511" target="_blank" class="hover:text-white transition">Research</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
